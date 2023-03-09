@@ -3,6 +3,7 @@
 // //Console.WriteLine($" Quad of {a} -> {a * a}"); //"You input this number" ->+ a
 // int quad = a * a;
 // Console.WriteLine(quad);
+
 // Задача 2. Напишите программу, которая на вход принимает два числа и проверяет, является ли первое число квадратом второго.
 // Console.WriteLine("inrut first number");
 // int num1 = Convert.ToInt32(Console.ReadLine ());
@@ -38,15 +39,15 @@
 // 782 -> 2
 
 // 918 -> 8
-Console.WriteLine("input three-digit number");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("input three-digit number");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-if (num >= 100 && num <= 999)//Уточняем трёхзначность
-{
-    int remainder = num % 10;
-    Console.WriteLine($"Last digit of {num} => {remainder}");
-}
-else
-{
-    Console.WriteLine("Вы ввели не трёхзначное число.");
-}
+// if (num >= 100 && num <= 999)//Уточняем трёхзначность
+// {
+//     int remainder = num % 10;
+//     Console.WriteLine($"Last digit of {num} => {remainder}");
+// }
+// else
+// {
+//     Console.WriteLine("Вы ввели не трёхзначное число.");
+// }
