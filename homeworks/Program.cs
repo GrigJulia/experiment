@@ -17,34 +17,42 @@
     //    Console.WriteLine("Second number is MAX");
     // }
 
-// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+    // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+    // 2, 3, 7 -> 7
+    // 44 5 78 -> 78
+    // 22 3 9 -> 22
 
-// 2, 3, 7 -> 7
-// 44 5 78 -> 78
-// 22 3 9 -> 22
+// Console.WriteLine("input first number");
+//  int num1 = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("input second number");
+//  int num2 = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("input third number");
+//  int num3 = Convert.ToInt32(Console.ReadLine());
+//  int max = num1;
+// if (num2 > max);  //cs(33,16): warning CS0642: Возможно, ошибочный пустой оператор //C:Program.cs(37,16): warning CS0642: Возможно, ошибочный пустой оператор 
+// {
+//     max = num2;
+// }
+// if (num3 > max);
+// {
+//     max = num3;
+// }
+// Console.WriteLine("MAX number is");
+// Console.WriteLine(max);
 
-Console.WriteLine("input first number");
-  int num1 = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("input second number");
- int num2 = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("input third number");
- int num3 = Convert.ToInt32(Console.ReadLine());
- int max = num1;
-if (num2 > max);  //cs(33,16): warning CS0642: Возможно, ошибочный пустой оператор //C:Program.cs(37,16): warning CS0642: Возможно, ошибочный пустой оператор 
+    // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+    // 4 -> да
+    // -3 -> нет
+    // 7 -> нет
+Console.WriteLine("Проверка чётности.  Пожалуйста введите число");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if ( a % 2 == 0 );
 {
-    max = num2;
+    Console.WriteLine("да");
 }
-if (num3 > max);
-{
-    max = num3;
-}
-Console.WriteLine("MAX number is");
-Console.WriteLine(max);
-// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
-
-// 4 -> да
-// -3 -> нет
-// 7 -> нет
+else
+    Console.WriteLine("да");
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
