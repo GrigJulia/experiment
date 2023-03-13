@@ -44,17 +44,31 @@
     // 4 -> да
     // -3 -> нет
     // 7 -> нет
-Console.WriteLine("Проверка чётности.  Пожалуйста введите число");
-int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Проверка чётности.  Пожалуйста введите число");
+// int a = Convert.ToInt32(Console.ReadLine());
 
-if ( a % 2 == 0 );
-{
-    Console.WriteLine("да");
-}
-else
-    Console.WriteLine("да");
+// if ( a % 2 == 0 )
+// {
+//     Console.WriteLine($"число {a} чётное");
+// }
+// else
+// {
+//     Console.WriteLine("нет, число не чётное");
+// }
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+Console.WriteLine("Пожалуйста введите число");
+int n = Convert.ToInt32(Console.ReadLine());
+int num = 1;
+while (num <= n)
+{
+    if (num % 2 == 0)
+    {
+       Console.Write(num + " ");
+    }
+    num++; 
+}
