@@ -21,14 +21,13 @@
 
 // int Deletedigit(int num)  //передаём методу сгенерир число.
 // {
-//     int sot = num / 100;
-//     int ed = num % 10;
-//     return sot * 10 + ed;
-// }
-
-// int randomnum = new Random().Next(100, 1000);
-// Console.WriteLine(randomnum);
-// Console.WriteLine(Deletedigit(randomnum));  //int result = Deletedigit(randomnum);
+//      int sot = num / 100;
+//      int ed = num % 10;
+//      return sot * 10 + ed;
+//  }
+//  int randomnum = new Random().Next(100, 1000);
+//  Console.WriteLine(randomnum);
+//  Console.WriteLine(Deletedigit(randomnum));  //int result = Deletedigit(randomnum);
 
     // напишите программу, которая на вход принимает число и проверяет кратно ли оно одновременно 7 и 23.
     //14
